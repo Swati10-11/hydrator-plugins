@@ -1,5 +1,5 @@
 @GroupBy
-Feature:LookUp - Verify GroupBy Plugin Error scenarios
+Feature: LookUp - Verify GroupBy Plugin Error scenarios
 
   @GCS_CSV_GROUPBY_TEST
   Scenario:Verify GroupBy plugin validation errors for mandatory fields

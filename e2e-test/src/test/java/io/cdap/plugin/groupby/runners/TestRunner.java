@@ -21,14 +21,14 @@ import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 /**
- * GroupBy plugin related TestRunner.
+ * GroupBy plugin related TestRunner
  */
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
   features = {"src/test/features"},
   glue = {"io.cdap.plugin.groupby.stepsdesign", "stepsdesign", "io.cdap.plugin.common.stepsdesign"},
-  tags = {"@GroupBy"},
+  tags = {"@GroupBy1"},
   monochrome = true,
   plugin = {"pretty", "html:target/cucumber-html-report/groupby-action",
     "json:target/cucumber-reports/cucumber-groupby-action.json",

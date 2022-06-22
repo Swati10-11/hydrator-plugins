@@ -2,7 +2,7 @@
 Feature: GroupBy - Verification of GroupBy Plugin pipeline with GCS as source and File as target
 
   @GCS_CSV_GROUPBY_TEST @File_Sink @FILE_SINK_TEST
-  Scenario: To verify complete flow of data extract and transfer from GCS as source to target File with GroupBy plugin.
+  Scenario: To verify complete flow of data extract and transfer from GCS as source to target File with GroupBy plugin
     Given Open Datafusion Project to configure pipeline
     When Select plugin: "GCS" from the plugins list as: "Source"
     When Expand Plugin group in the LHS plugins list: "Analytics"

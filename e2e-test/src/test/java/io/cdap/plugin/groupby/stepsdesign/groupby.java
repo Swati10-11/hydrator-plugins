@@ -20,7 +20,7 @@ import io.cdap.plugin.groupby.actions.GroupByActions;
 import io.cucumber.java.en.Then;
 
 /**
- * GroupBy plugin related StepsDesign.
+ * GroupBy plugin related StepsDesign
  */
 
 public class groupby {

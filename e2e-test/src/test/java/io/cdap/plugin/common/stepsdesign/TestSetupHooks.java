@@ -35,7 +35,7 @@ public class TestSetupHooks {
 
   @Before(order = 1, value = "@GCS_CSV_GROUPBY_TEST")
   public static void createBucketWithNormalizeFile() throws IOException, URISyntaxException {
-    createGCSBucketWithFile(PluginPropertyUtils.pluginProp("GroupByGCSCsvFile"));
+    createGCSBucketWithFile(PluginPropertyUtils.pluginProp("GroupByGcsCsvFile"));
   }
 
   @After(order = 1, value = "@GCS_CSV_GROUPBY_TEST")

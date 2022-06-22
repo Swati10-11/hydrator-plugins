@@ -28,7 +28,7 @@ import org.slf4j.LoggerFactory;
 import java.util.Map;
 
 /**
- * GroupBy plugin related Actions.
+ * GroupBy plugin related Actions
  */
 
 public class GroupByActions {

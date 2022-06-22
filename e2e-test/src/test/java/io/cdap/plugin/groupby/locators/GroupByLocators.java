@@ -21,7 +21,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
 /**
- * GroupBy plugin related Locators.
+ * GroupBy plugin related Locators
  */
 
 public class GroupByLocators {

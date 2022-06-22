@@ -1,5 +1,5 @@
 @GroupBy
-Feature:GroupBy- Verification of GroupBy pipeline with GCS as source and File as target using macros
+Feature:GroupBy - Verification of GroupBy pipeline with GCS as source and File as target using macros
 
   @GCS_CSV_GROUPBY_TEST @File_Sink @FILE_SINK_TEST
   Scenario: To verify data is getting transferred from GCS to File successfully with GroupBy plugin properties as macro arguments
